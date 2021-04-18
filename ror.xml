@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://www.allan-medina.ml/</title>
+  <link>https://www.allan-medina.ml/</link>
+
+<item>
+     <link>https://www.allan-medina.ml/</link>
+     <title>ALLAN MEDINA</title>
+     <description>MEDINA PORTAFOLIO</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.allan-medina.ml/index.html</link>
+     <title>ALLAN MEDINA</title>
+     <description>MEDINA PORTAFOLIO</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.allan-medina.ml/doc/FICHA_ALLAN.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
