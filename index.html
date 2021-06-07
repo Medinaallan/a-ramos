@@ -614,16 +614,51 @@
 			    
 
 			 
-                    <div align="center" class="col-0"> 
-                        
-                    
-                        <!-- price item -->
-                        <div class="price-item bg-white rounded shadow-dark text-center">
-                            <img src="https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/mail_email_e-mail_letter-256.png" alt="Regular" />
-                            
-                            <a href="mailto:medinaallan569@gmail.com" class="btn btn-default">Contactar</a>
-                        </div>
-                    </div>
+                    <div class="col-md-8">
+					<!-- Contact Form -->
+					<form id="contact-form" class="contact-form mt-6" method="post" action="#">
+						
+						<div class="messages"></div>
+						
+						<div class="row">
+							<div class="column col-md-6">
+								<!-- Name input -->
+								<div class="form-group">
+									<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Tu Nombre" required="required" data-error="Escribe tu nombre">
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+							
+							<div class="column col-md-6">
+								<!-- Email input -->
+								<div class="form-group">
+									<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Email " required="required" data-error="Tu Email.">
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+
+							<div class="column col-md-12">
+								<!-- Email input -->
+								<div class="form-group">
+									<input type="text" class="form-control" id="InputSubject" name="InputSubject" placeholder="Asunto" required="required" data-error="El asunto es obligatorio.">
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+					
+							<div class="column col-md-12">
+								<!-- Message textarea -->
+								<div class="form-group">
+									<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" placeholder="Mensaje" required="required" data-error="Mensaje requerido."></textarea>
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+						</div>
+
+						<button type="submit" name="submit" id="submit" value="Submit" class="btn btn-default">Enviar Mensaje</button><!-- Send Button -->
+
+					</form>
+					<!-- Contact Form end -->
+				</div>
 		    
                 </div>
 
