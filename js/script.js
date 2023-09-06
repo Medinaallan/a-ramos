@@ -8,7 +8,7 @@ const enviarFormulario =() => {
     //mensaje//
         let InputMessage = document.getElementById('InputMessage').value;
     //numero destinatario//
-        let cellphone = 50498024751;
+        let cellphone = 50497896425;
 
 //mensaje whatsapp//
 var win= window.open(`https://wa.me/${cellphone}?text=Hola%20mi%20nombre%20es%20*${InputName}*%20El%20motivo%20de%20este%20mensaje%20es%20${InputSubject}%20-%20${InputMessage}`,'_blank');
